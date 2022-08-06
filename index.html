@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion App</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin&family=Happy+Monkey&family=Inconsolata:wght@600&family=Lato&family=Orbitron:wght@400;800&family=Patrick+Hand&family=Roboto&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="main-heads">
+        <div id="heading-el">Metric Conversion Calculator</div>
+        <input id="num-el" type="text">
+        <div id="btn-els">
+            <button id="btn"> Convert</button>
+            <button id="btn2"> Reset</button>
+        </div>
+    </div>
+    <div id="metric-el">
+        <div id="metricOne" class="metric"> Length (Meter/Feet)
+            <p id="len-el"> </p>
+        </div>
+        <div id="metricTwo" class="metric"> Volume (Liters/Gallons)
+            <p id="vol-el"></p>
+        </div>
+        <div id="metricThree" class="metric"> Mass (Kilograms/Pounds)
+            <p id="mass-el"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

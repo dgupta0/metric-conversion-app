@@ -1,0 +1,99 @@
+body{
+    font-family: Lato;
+    text-align: center;
+    margin: 0px;
+}
+
+#main-heads{
+    background-color: rgb(60, 107, 55);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 500px;
+    
+}
+#heading-el {
+    font-size: 50px;
+    text-shadow: 0px 0px 1px black;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+#num-el{
+    height: 120px;
+    width: 120px ;
+    margin-bottom: 50px;
+    color: white;
+    border: 2px solid  white; 
+    background-color: rgb(60, 107, 55); 
+    font-size: 80px;
+    text-align: center;
+
+}
+#btn-els{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+#btn{
+    font-family: Lato;  
+    width: 175px;
+    height: 60px;
+    border-radius: 10px;
+    color: #3c6b37;
+    font-weight: bolder;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+#btn2{
+    font-family: Lato; 
+    width: 175px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(60, 107, 55);
+    margin-left: 5px;
+    
+
+}
+#metric-el{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: space-between;
+    height: 600px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.metric{
+    background-color: rgb(231, 233, 231);
+    padding: 30px 0px 40px 0px;
+    border-radius: 20px;
+    margin: 0px 30px;
+    font-weight: 900;
+    font-size: x-large;
+    height: 75px;
+    color: rgb(60, 107, 55); 
+    align-content: center;
+   
+} p{
+    color: rgb(60, 107, 55); 
+    font-size: large;
+}
+@media (min-width: 800px){
+    .metric{
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
